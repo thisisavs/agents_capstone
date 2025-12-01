@@ -1,3 +1,6 @@
+# Competitor News Digest
+## Multi agent system that automates, competitor news tracking, M&A Analysis, and infographic creation
+
 Competitor News Digest is a multi-agent competitor-intelligence system built with the Google Agent Development Kit (ADK) for a fictional OEM, **Mjolnir Power Systems**, which competes with Eaton, Schneider Electric, and Vertiv in power distribution and data-center market. The system automates the pipeline from **“raw competitor news on the web”** to **structured executive briefings and M&A deep-dive reports** that can be dropped straight into email, documentation, or reports. Instead of analysts repeatedly Googling the same competitors and manually stitching information together, Agent centralizes news collection, triage, and reporting into a reusable workflow.
 
 ---
