@@ -1,3 +1,4 @@
+![Agent – Banner](assets/banner.jpeg)
 # Competitor News Digest
 ## Multi agent system that automates, competitor news tracking, M&A Analysis, and infographic creation
 
