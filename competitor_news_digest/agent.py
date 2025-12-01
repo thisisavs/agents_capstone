@@ -16,21 +16,6 @@ from .tools import save_outputs
 from .prompt import NEWS_DIGEST_PROMPT
 
 
-"""
-news_orchestrator = LlmAgent(
-    name="CompetitorNewsDigest",
-    model=MODEL_NEWS_ORCHESTRATOR,    
-    instruction=NEWS_DIGEST_PROMPT,    
-    sub_agents=[
-        news_collector,
-        mna_report_pipeline,
-        infographic_agent
-    ],    
-    tools = [        
-        FunctionTool(save_outputs)
-    ]
-)
-"""
 news_orchestrator = LlmAgent(
     name="CompetitorNewsDigest",
     model=MODEL_NEWS_ORCHESTRATOR,    
