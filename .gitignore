@@ -11,3 +11,9 @@ wheels/
 
 # Env
 .env
+
+
+
+#folders
+generated_images/
+Deliverables/
