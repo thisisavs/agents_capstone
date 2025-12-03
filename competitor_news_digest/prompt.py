@@ -72,4 +72,7 @@ Throughout the process remember you are to use the tools specified to do the giv
     - If an infographic was created, mention that and its saved location.
     - Include ALL file paths and locations returned by `save_outputs`.
   - After this final summary, STOP. Do NOT attempt further tool calls.
+
+- USER INTERACTION:
+  - In between Function calls, you can keep the user informed of your actions in simple words, just so the user is aware of the progress.
 """
