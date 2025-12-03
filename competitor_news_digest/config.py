@@ -13,12 +13,12 @@ retry_config=types.HttpRetryOptions(
 # MODELS CONFIGURATION
 # ------------------------------------------------------------------------------
 MODEL_NEWS_ORCHESTRATOR= Gemini(
-    model='gemini-2.5-pro-preview-06-05', # [ 'gemini-3-pro-preview' , 'gemini-2.5-pro-preview-06-05' , 'gemini-2.5-flash']
+    model='gemini-3-pro-preview', # [ 'gemini-3-pro-preview' , 'gemini-2.5-pro-preview-06-05' , 'gemini-2.5-flash']
     retry_options=retry_config
 )
 
 MODEL_NEWS_COLLECTOR= Gemini(
-    model='gemini-2.5-pro-preview-06-05', # [ 'gemini-3-pro-preview' , 'gemini-2.5-pro-preview-06-05' , 'gemini-2.5-flash']
+    model='gemini-2.5-pro', # [ 'gemini-3-pro-preview' , 'gemini-2.5-pro-preview-06-05' , 'gemini-2.5-flash']
     retry_options=retry_config
 )
 
@@ -28,22 +28,22 @@ MODEL_MNA_WRITER= Gemini(
 )
 
 MODEL_CRITIC= Gemini(
-    model='gemini-2.5-pro-preview-06-05', # [ 'gemini-3-pro-preview' , 'gemini-2.5-pro-preview-06-05' , 'gemini-2.5-flash']
+    model='gemini-2.5-pro', # [ 'gemini-3-pro-preview' , 'gemini-2.5-pro-preview-06-05' , 'gemini-2.5-flash']
     retry_options=retry_config
 )
 
 MODEL_REFINER= Gemini(
-    model='gemini-2.5-pro-preview-06-05', # [ 'gemini-3-pro-preview' , 'gemini-2.5-pro-preview-06-05' , 'gemini-2.5-flash']
+    model='gemini-2.5-pro', # [ 'gemini-3-pro-preview' , 'gemini-2.5-pro-preview-06-05' , 'gemini-2.5-flash']
     retry_options=retry_config
 )
 
 MODEL_IMAGE_PROMPTER= Gemini(
-    model='gemini-2.5-pro-preview-06-05', # [ 'gemini-3-pro-preview' , 'gemini-2.5-pro-preview-06-05' , 'gemini-2.5-flash']
+    model='gemini-2.5-pro', # [ 'gemini-3-pro-preview' , 'gemini-2.5-pro-preview-06-05' , 'gemini-2.5-flash']
     retry_options=retry_config
 )
 
 MODEL_EMAIL= Gemini(
-    model='gemini-2.5-pro-preview-06-05', # [ 'gemini-3-pro-preview' , 'gemini-2.5-pro-preview-06-05' , 'gemini-2.5-flash']
+    model='gemini-2.5-pro', # [ 'gemini-3-pro-preview' , 'gemini-2.5-pro-preview-06-05' , 'gemini-2.5-flash']
     retry_options=retry_config
 )
 
