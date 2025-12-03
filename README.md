@@ -55,7 +55,7 @@ The goal is to **eliminate repetitive grunt work** so analysts spend time on que
 ## Architecture
 
 ![Agent – Architecture](assets/architecture.jpeg)
-
+### How the Multi-Agent System works:
 ![Agent – WorkFlow](assets/agenticFlow.png)
 
 The system is built around a central orchestrator agent plus a small set of specialised agents and tools. It uses ADK state to pass information between components in a controlled way.
