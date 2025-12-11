@@ -75,7 +75,7 @@ async def generate_image(img_prompt: str, tool_context: ToolContext):
     with open(qc_path,"a",encoding="utf-8") as f:
         f.write(json.dumps(record))
         f.write("\n")
-
+    tool_context.actions.escalate=True
     return {
         "status": "success",
         "detail": "Image generated successfully and stored in artifacts.",

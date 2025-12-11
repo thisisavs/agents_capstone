@@ -26,13 +26,15 @@ critic_agent=LlmAgent(
     model=MODEL_CRITIC,
     instruction=CRITIC_PROMPT,
     description="Reviews the current M&A report draft and returns focused critique or signals completion",
+    tools=[google_search],
     output_key='criticism'
 )
 
 # Exit Loop Tool 
 def exit_loop(tool_context:ToolContext):
     """Call this function ONLY when the critique is 'APPROVED', indicating the report is ready and no more changes are needed."""
-    tool_context.actions.escalate=True
+    #tool_context.actions.escalate=True
+    tool_context.actions.transfer_to_agent = "CompetitorNewsDigest"
     return {
         "status":"APPROVED",
         'message':'Report Approved exit the refinement loop'

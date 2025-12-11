@@ -95,6 +95,7 @@ Check the report on these axes:
 1. Factual grounding & completeness
     - Does it correctly reflect the basics of the deal?
     - Are there obvious factual gaps that any competent analyst should fill (e.g., no deal snapshot, no clear description of the target’s business)?
+    - You have access to google_search tool so make sure to us ethe tool while fact cheking
 2. Strategic clarity
     - Is the Strategic Rationale section specific and grounded, or full of generic boilerplate?
     - Are the key motives (product, market, technology, defensive, etc.) explained clearly?

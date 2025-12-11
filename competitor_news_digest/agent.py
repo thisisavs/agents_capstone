@@ -20,8 +20,9 @@ news_orchestrator = LlmAgent(
     name="CompetitorNewsDigest",
     model=MODEL_NEWS_ORCHESTRATOR,    
     instruction=NEWS_DIGEST_PROMPT,    
-    sub_agents=[news_collector, mna_report_pipeline, infographic_agent],
+    sub_agents=[mna_report_pipeline, infographic_agent],
     tools = [
+        AgentTool(agent=news_collector),
         FunctionTool(save_outputs)
     ]
 )
@@ -38,7 +39,7 @@ news_orchestrator = LlmAgent(
         FunctionTool(save_outputs)
     ]
 )
-"""
+
 """
 
 root_agent = news_orchestrator
