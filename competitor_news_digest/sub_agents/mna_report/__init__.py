@@ -1,2 +1,2 @@
-from .agent import mna_report_writer
+from .agent import mna_report_pipeline
 
